@@ -91,7 +91,7 @@ if check_password():
     dataset = get_data()
 
     # Dashboard content
-    st.title("Retiro Nacional de Jóvenes ILBD 2023 - Reporte de pagos")
+    st.title("Retiro Castillo Fuerte 2023 - Reporte de pagos")
 
     ministry_list = ["Todos"] + dataset.ministerio_obra.drop_duplicates().sort_values().tolist()
     ministry_list.append("Documento")
